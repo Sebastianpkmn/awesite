@@ -1,0 +1,8 @@
+/* You can add global styles to this file, and also import other style files */
+html, body{
+    background-image: url("assets/5026.png");
+  background-color: #cccccc;
+    font-family:'Comic Sans MS' ;
+   margin: 0px;
+}
+
