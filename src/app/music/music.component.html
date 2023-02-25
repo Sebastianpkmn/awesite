@@ -1,0 +1,10 @@
+<p>
+  Here is my music collection! You can click yourself thru this
+  YouTube-Playlist. Below that are all the links seperately extracted. Enjoy
+  while it lasts.
+</p>
+
+<br /><br />
+<div *ngFor="let name of names; index as i">
+  <a href="{{ links[i] }}">{{ name }}</a>
+</div>

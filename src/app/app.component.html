@@ -1,2 +1,16 @@
-<app-header></app-header>
-<router-outlet></router-outlet>
+<table class="website">
+  <tr>
+    <th rowspan="3" class="space"></th>
+    <th class="content"><app-header></app-header></th>
+    <th rowspan="3" class="space"></th>
+    <!--<app-nav></app-nav> class="nav-right" -->
+  </tr>
+
+  <tr>
+    <th class="content"><router-outlet></router-outlet></th>
+  </tr>
+
+  <tr>
+    <th class="content"><app-footer></app-footer></th>
+  </tr>
+</table>

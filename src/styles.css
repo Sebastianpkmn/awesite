@@ -1,8 +1,92 @@
-/* You can add global styles to this file, and also import other style files */
-html, body{
-    background-image: url("assets/5026.png");
-  background-color: #cccccc;
-    font-family:'Comic Sans MS' ;
-   margin: 0px;
+@import url("./assets/font.css"); /*imports the C64-Font from the assets folder*/
+@import url("./assets/rainbow-text.css");
+
+table,
+th,
+td,
+tr {
+  border: none;
+  border-spacing: 0px;
 }
 
+.about-background {
+  background-image: url("assets/backgrounds/5008.png");
+  color: rgb(255, 255, 255);
+}
+
+.buttons-background {
+  background-image: url("assets/backgrounds/5008.png");
+  width: 100%;
+}
+
+.header-background {
+  background-color: #a0a0ff;
+  border: black 1px solid;
+}
+
+.header-anime {
+  width: 80%;
+  height: auto;
+  min-width: 30px;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.click {
+  width: 300px;
+  padding: 16px 0px;
+  background-color: rgb(102, 102, 255);
+  border: black 1px solid;
+}
+
+.click:hover {
+  cursor: pointer;
+  background-color: rgb(102, 102, 204);
+}
+
+img {
+  padding: 4px;
+  max-width: 100%;
+}
+
+body {
+  margin: 0px;
+  font-family: c64_userregular;
+  background-image: url("./assets/backgrounds/stars3.gif");
+  background-size: auto;
+  background-repeat: repeat;
+}
+
+.content {
+  padding: 1%;
+}
+
+.website {
+  background-image: url("./assets/backgrounds/bg.jpg");
+  background-size: cover;
+  background-repeat: repeat;
+}
+.space {
+  width: 20%;
+  height: 100%;
+  background-image: url("./assets/backgrounds/stars3.gif");
+  background-size: auto;
+  background-repeat: repeat;
+  background-size: contain;
+}
+@media screen and (max-width: 1000px) {
+  .click {
+    display: block;
+  }
+  .space {
+    width: 10%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .space {
+    width: 0%;
+  }
+}
