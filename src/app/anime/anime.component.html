@@ -1,10 +1,17 @@
-<table class="center">
-  <tr *ngFor="let anime of animes; index as i">
-    <th>
-      <img
-        [style.background-color]=""
-        src="../../assets/anime/{{ anime }}.png"
-      />
-    </th>
-  </tr>
-</table>
+<div id="overlay" (click)="off()">
+  <img
+    class="bigImage"
+    src="../../assets/anime/{{ animes[selectedAnimeIndex] }}.png"
+  />
+</div>
+
+
+  <div class="container">
+    <img
+      class="smallImage"
+      *ngFor="let anime of animes; index as index"
+      src="../../assets/anime/{{ anime }}.png"
+      (click)="onclick(index)"
+    />
+  </div>
+

@@ -1,4 +1,5 @@
-@import url("./assets/font.css"); /*imports the C64-Font from the assets folder*/
+/* @import url("./assets/font.css"); imports the C64-Font from the assets folder */
+/* @import url('https://fonts.cdnfonts.com/css/perfect-dos-vga-437'); */
 @import url("./assets/rainbow-text.css");
 
 table,
@@ -9,37 +10,13 @@ tr {
   border-spacing: 0px;
 }
 
-.about-background {
-  background-image: url("assets/backgrounds/5008.png");
-  color: rgb(255, 255, 255);
-}
-
-.buttons-background {
-  background-image: url("assets/backgrounds/5008.png");
-  width: 100%;
-}
-
-.header-background {
-  background-color: #a0a0ff;
-  border: black 1px solid;
-}
-
-.header-anime {
-  width: 80%;
-  height: auto;
-  min-width: 30px;
-}
-
 .center {
   margin-left: auto;
   margin-right: auto;
 }
 
 .click {
-  width: 300px;
-  padding: 16px 0px;
-  background-color: rgb(102, 102, 255);
-  border: black 1px solid;
+  color: #fff;
 }
 
 .click:hover {
@@ -48,43 +25,43 @@ tr {
 }
 
 img {
-  padding: 4px;
   max-width: 100%;
 }
 
 body {
   margin: 0px;
-  font-family: c64_userregular;
-  background-image: url("./assets/backgrounds/stars3.gif");
+  /* font-family: "Perfect DOS VGA 437", monospace; */
+  font-weight: 200;
+  font-synthesis: none;
+  font-size: 22px;
+  background-image: url("assets/backgrounds/greengrid.jpg"); /* background-image: url("./assets/backgrounds/stars3.gif"); */
   background-size: auto;
   background-repeat: repeat;
+  font-family: Roboto, "Helvetica Neue", monospace;
 }
 
 .content {
+  flex: 2;
   padding: 1%;
+  background-image: url("assets/backgrounds/bubble.jpg");
+  background-size: 1024px;
+  background-repeat: repeat;
 }
 
-.website {
-  background-image: url("./assets/backgrounds/bg.jpg");
-  background-size: cover;
-  background-repeat: repeat;
+.website-container {
+  display: flex;
+  flex-direction: row;
 }
+
 .space {
-  width: 20%;
-  height: 100%;
-  background-image: url("./assets/backgrounds/stars3.gif");
-  background-size: auto;
-  background-repeat: repeat;
-  background-size: contain;
+  flex: 1;
 }
-@media screen and (max-width: 1000px) {
-  .click {
-    display: block;
-  }
-  .space {
-    width: 10%;
-  }
+
+.flex {
+  display: flex;
+  flex-direction: column;
 }
+
 @media screen and (max-width: 500px) {
   .space {
     width: 0%;

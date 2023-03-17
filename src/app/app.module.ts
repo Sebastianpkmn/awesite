@@ -8,11 +8,13 @@ import { AboutComponent } from './about/about.component';
 import { ButtonsComponent } from './buttons/buttons.component';
 import { MusicComponent } from './music/music.component';
 import { FooterComponent } from './footer/footer.component';
-import { ChessComponent } from './chess/chess.component';
 import { AnimeComponent } from './anime/anime.component';
 import { IdeasComponent } from './ideas/ideas.component';
 import { NavComponent } from './nav/nav.component';
 import { CLIComponent } from './cli/cli.component';
+import { SpamComponent } from './spam/spam.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import {MatToolbarModule} from '@angular/material/toolbar';
 
 @NgModule({
   declarations: [
@@ -22,15 +24,18 @@ import { CLIComponent } from './cli/cli.component';
     ButtonsComponent,
     MusicComponent,
     FooterComponent,
-    ChessComponent,
     AnimeComponent,
     IdeasComponent,
     NavComponent,
-    CLIComponent
+    CLIComponent,
+    SpamComponent,
+    
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule,
+    MatToolbarModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

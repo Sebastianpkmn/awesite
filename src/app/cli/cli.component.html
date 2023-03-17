@@ -1,5 +1,11 @@
 <label for="command">Was möchtest du tun?</label>
-<input type="text" id="command" name="command" autofocus (keyup.enter)="executeCommand()">
+<input
+  type="text"
+  id="command"
+  name="command"
+  autofocus
+  (keyup.enter)="executeCommand()"
+/>
 <button type="button" (click)="executeCommand()">Ausführen</button>
 
 <div id="output">

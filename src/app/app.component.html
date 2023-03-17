@@ -1,16 +1,36 @@
-<table class="website">
-  <tr>
-    <th rowspan="3" class="space"></th>
-    <th class="content"><app-header></app-header></th>
-    <th rowspan="3" class="space"></th>
-    <!--<app-nav></app-nav> class="nav-right" -->
-  </tr>
+<app-header></app-header>
 
-  <tr>
-    <th class="content"><router-outlet></router-outlet></th>
-  </tr>
+<div class="website-container">
+  <div class="space">
+    <!-- <h1 class="extern-rainbow-text">AWESITE</h1>
+    <div class="flex">
+      <div class="click" routerLink="about">About</div>
+      <div class="click" routerLink="buttons">Buttons n Gifs</div>
+      <div class="click" routerLink="music">Music</div>
+      <div class="click" routerLink="anime">Anime</div>
+      <div class="click" routerLink="ideas">Clipboard</div>
+      <div class="click" routerLink="cli">CLI</div>
+      <div class="click" routerLink="spam">spam</div>
+    </div> -->
+  </div>
 
-  <tr>
-    <th class="content"><app-footer></app-footer></th>
-  </tr>
-</table>
+  <div class="content">
+    
+    <router-outlet></router-outlet>
+    <app-footer></app-footer>
+  </div>
+
+  <div class="space">
+    <!-- <h1 class="extern-rainbow-text">AWESITE</h1>
+    <div class="center flex">
+      <div class="click" routerLink="about">About</div>
+      <div class="click" routerLink="buttons">Buttons n Gifs</div>
+      <div class="click" routerLink="music">Music</div>
+      <div class="click" routerLink="anime">Anime</div>
+      <div class="click" routerLink="ideas">Clipboard</div>
+      <div class="click" routerLink="cli">CLI</div>
+      <div class="click" routerLink="spam">spam</div>
+    </div>
+  </div> -->
+  </div>
+</div>

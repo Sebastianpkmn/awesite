@@ -1,36 +1,38 @@
-<p>
-  Welcome to the 'gif & button library'. You can use these cool pictures for
-  your own website! Just Right-click & save them to ur Computer
-</p>
-<table class="center buttons-background">
-  <tr>
-    <th><p>Buttons</p></th>
-  </tr>
-  <td>
+<div class="center">
+  <p>
+    Welcome to the 'gif & button library'. You can use these cool pictures for
+    your own website! Just Right-click & save them to ur Computer
+  </p>
+
+  <div>
+    <h2>Buttons</h2>
+  </div>
+
+  <div>
     <img
       *ngFor="let button of buttons; index as i"
       src="../../assets/buttons/{{ button }}"
     />
-  </td>
-</table>
-<br />
-<table class="center buttons-background">
-  <tr>
-    <th><p>Other</p></th>
-  </tr>
-  <td>
+  </div>
+
+  <div>
+    <h2>Other</h2>
+  </div>
+
+  <div>
     <img
       *ngFor="let gif of gifs; index as i"
       src="../../assets/gifs/{{ gif }}"
     />
-  </td>
-</table>
+  </div>
 
-<table class="center buttons-background">
-  <tr>
-    <th><p>N word pass</p></th>
-  </tr>
-  <td>
-    <img src="https://i.kym-cdn.com/photos/images/newsfeed/001/461/309/f39.jpg">
-  </td>
-</table>
+  <div>
+    <h2>N word pass</h2>
+  </div>
+
+  <div>
+    <img
+      src="https://i.kym-cdn.com/photos/images/newsfeed/001/461/309/f39.jpg"
+    />
+  </div>
+</div>

@@ -1,4 +1,6 @@
 .extern-rainbow-text {
+  position: fixed;
+  top: 0;
   animation: rainbow-text 3.5s steps(1, end) infinite;
 }
 
