@@ -1,38 +1,8 @@
-.change{
-    width: 50%;
+.change {
+  width: 50%;
 }
 
-.container {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 100%;
-  }
-  
-  .section {
-    flex: 1;
-  }
-  
-  .header, .footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .header h1 {
-    margin: 0;
-  }
-  
-  .section h2 {
-    margin-top: 0;
-  }
-  
-  .change {
-    display: block;
-    margin: 0 auto;
-  }
-  
-
-  .center-text{
-    text-align: center;
-  }
+.change {
+  display: block;
+  margin: 0 auto;
+}

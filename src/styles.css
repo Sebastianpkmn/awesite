@@ -2,68 +2,24 @@
 /* @import url('https://fonts.cdnfonts.com/css/perfect-dos-vga-437'); */
 @import url("./assets/rainbow-text.css");
 
-table,
-th,
-td,
-tr {
-  border: none;
-  border-spacing: 0px;
-}
-
 .center {
   margin-left: auto;
   margin-right: auto;
 }
 
-.click {
-  color: #fff;
+.center-text {
+  text-align: center;
 }
 
-.click:hover {
-  cursor: pointer;
-  background-color: rgb(102, 102, 204);
-}
-
-img {
+img{
   max-width: 100%;
 }
 
 body {
-  margin: 0px;
-  /* font-family: "Perfect DOS VGA 437", monospace; */
   font-weight: 200;
-  font-synthesis: none;
   font-size: 22px;
   background-image: url("assets/backgrounds/greengrid.jpg"); /* background-image: url("./assets/backgrounds/stars3.gif"); */
   background-size: auto;
   background-repeat: repeat;
   font-family: Roboto, "Helvetica Neue", monospace;
-}
-
-.content {
-  flex: 2;
-  padding: 1%;
-  background-image: url("assets/backgrounds/bubble.jpg");
-  background-size: 1024px;
-  background-repeat: repeat;
-}
-
-.website-container {
-  display: flex;
-  flex-direction: row;
-}
-
-.space {
-  flex: 1;
-}
-
-.flex {
-  display: flex;
-  flex-direction: column;
-}
-
-@media screen and (max-width: 500px) {
-  .space {
-    width: 0%;
-  }
 }

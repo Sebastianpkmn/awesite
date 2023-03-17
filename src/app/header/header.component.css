@@ -1,3 +1,14 @@
-*{
-    background: none;
+.nav-link,
+.navbar-brand {
+  color: white;
+  margin: 0px 5px;
+}
+
+.nav-link:hover {
+  cursor: pointer;
+  background-color: rgb(102, 102, 204);
+}
+
+.navbar-brand:hover{
+    cursor: default;
 }

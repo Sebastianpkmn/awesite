@@ -1,6 +1,6 @@
 .extern-rainbow-text {
-  position: fixed;
-  top: 0;
+  font-size: larger;
+  font-weight: 500;
   animation: rainbow-text 3.5s steps(1, end) infinite;
 }
 

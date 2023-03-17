@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-
 import { AboutComponent } from './about/about.component';
 import { AnimeComponent } from './anime/anime.component';
 import { ButtonsComponent } from './buttons/buttons.component';
@@ -16,6 +15,7 @@ const routes: Routes = [
   { path: 'ideas', component: IdeasComponent },
   { path: 'cli', component: CLIComponent },
   { path: 'spam', component: SpamComponent },
+  { path: '', component: AboutComponent },
 ];
 
 @NgModule({
