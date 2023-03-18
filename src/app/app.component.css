@@ -1,26 +1,21 @@
-.content {
-  margin-top: 66px;
-  margin-bottom: 70px;
-  flex: 2;
-  padding: 1%;
-  background-image: url("../assets/backgrounds/bubble.jpg");
-  background-size: 1024px;
-  background-repeat: repeat;
-  border: 1px;
-  border-radius: 0px 0px 12px 12px;
-}
 
 .website-container {
   display: flex;
   flex-direction: row;
 }
 
-.space {
-  flex: 1;
-}
+
 
 @media screen and (max-width: 720px) {
   .space {
     flex: 0;
   }
+}
+
+.flower {
+  width: 100%;
+  position: relative;
+  bottom: 0;
+  left: 0;
+  top: inherit;
 }

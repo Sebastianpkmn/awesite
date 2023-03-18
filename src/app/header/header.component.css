@@ -1,7 +1,6 @@
-.nav-link,
-.navbar-brand {
+.nav-link {
   color: white;
-  margin: 0px 5px;
+  padding: 8px !important;
 }
 
 .nav-link:hover {
@@ -9,6 +8,34 @@
   background-color: rgb(102, 102, 204);
 }
 
-.navbar-brand:hover{
-    cursor: default;
+.navbar-brand:hover {
+  cursor: default;
+}
+
+.navbar {
+  font-weight: 200 !important;
+  font-size: 20px !important;
+}
+
+.navbar-brand {
+  color: white;
+}
+
+.dropdown {
+  text-decoration: none;
+}
+
+.pengu {
+
+}
+
+.pengu2 {
+
+  transform: scaleX(-1);
+}
+
+.form-check{
+  color: #fff;
+ position: absolute;
+ right: 1%;
 }

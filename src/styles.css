@@ -11,14 +11,45 @@
   text-align: center;
 }
 
-img{
+img {
   max-width: 100%;
 }
 
+p,
+h1,
+h2 {
+  color: #fff;
+}
+
+.content,
+.music-sidebar {
+  margin-top: 76px;
+  margin-bottom: 70px;
+  padding: 1%;
+  border: 1px;
+}
+
+.space {
+  flex: 15%;
+}
+
+.music-sidebar {
+  background-color: #444444 ;
+  flex: 15%;
+}
+
+.content {
+  flex: 70%;
+  background-color: #4F4F4F ;
+  /* background-image: url("assets/backgrounds/bubble.jpg"); */
+
+  background-repeat: repeat;
+}
+
 body {
-  font-weight: 200;
-  font-size: 22px;
-  background-image: url("assets/backgrounds/greengrid.jpg"); /* background-image: url("./assets/backgrounds/stars3.gif"); */
+  font-size: large !important;
+  background-color: black;
+  /* background-image: url("assets/backgrounds/greengrid.jpg"); */
   background-size: auto;
   background-repeat: repeat;
   font-family: Roboto, "Helvetica Neue", monospace;

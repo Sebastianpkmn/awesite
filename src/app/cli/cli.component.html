@@ -1,13 +1,11 @@
-<label for="command">Was möchtest du tun?</label>
-<input
-  type="text"
-  id="command"
-  name="command"
-  autofocus
-  (keyup.enter)="executeCommand()"
-/>
-<button type="button" (click)="executeCommand()">Ausführen</button>
+<div class="parent">
+  <img class="marin" src="../../assets/anime/marin.gif" />
+  <img class="fish" src="../../assets/gifs/fish_swim.gif" />
+  <img class="pengu" src="../../assets/gifs/pengu_walk.gif" />
+  <img class="baum" src="../../assets/Baum40.gif" />
 
-<div id="output">
-  <p *ngFor="let message of messages">{{ message }}</p>
+  <img class="albedo" src="../../assets/anime/albedo.png" />
+  <img class="albedo2" src="../../assets/anime/albedo.png" />
+  <img class="asuka" src="../../assets/anime/asuka-3.png" />
+  <img class="rei" src="../../assets/anime/rei-3.png" />
 </div>

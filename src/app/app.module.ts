@@ -15,6 +15,7 @@ import { CLIComponent } from './cli/cli.component';
 import { SpamComponent } from './spam/spam.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatToolbarModule} from '@angular/material/toolbar';
+import { HttpClientModule } from '@angular/common/http'; // import HttpClientModule
 
 @NgModule({
   declarations: [
@@ -36,6 +37,7 @@ import {MatToolbarModule} from '@angular/material/toolbar';
     AppRoutingModule,
     BrowserAnimationsModule,
     MatToolbarModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

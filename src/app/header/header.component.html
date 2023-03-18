@@ -1,4 +1,4 @@
-<nav class="navbar fixed-top navbar-expand-lg bg-dark" data-bs-theme="dark">
+<nav class="navbar fixed-top navbar-expand-md bg-dark" data-bs-theme="dark">
   <div class="container-fluid">
     <a class="navbar-brand extern-rainbow-text">AWESITE</a>
     <button
@@ -16,17 +16,17 @@
       <div class="navbar-nav">
         <a class="nav-link" routerLink="about">About</a>
         <a class="nav-link" routerLink="buttons">Gifs</a>
-        <a class="nav-link" routerLink="music">Music</a>
+        <!-- <a class="nav-link" routerLink="music">Music</a> -->
         <a class="nav-link" routerLink="anime">Anime</a>
         <a class="nav-link" routerLink="ideas">Clipboard</a>
         <a class="nav-link" routerLink="cli">CLI</a>
         <a class="nav-link" routerLink="spam">Shop</a>
       </div>
-      <a class="nav-link dropdown">
+
+      <a class="dropdown">
         <a
           class="nav-link dropdown-toggle"
-          href="#"
-          role="button"
+          role="link"
           data-bs-toggle="dropdown"
           aria-expanded="false"
         >
@@ -42,6 +42,19 @@
           </li>
         </ul>
       </a>
+
+      <!-- <a class="nav-link">
+        <a (click)="toggleMusic()">Toggle Music</a>
+      </a> -->
+
+
+      <div class="form-check form-switch">
+        <input class="form-check-input" (click)="toggleMusic()" type="checkbox" role="switch" id="flexSwitchCheckDefault">
+        <label class="form-check-label" for="flexSwitchCheckDefault">Toggle music</label>
+      </div>
+
+      <img class="pengu" src="../../assets/gifs/pengu_walk.gif" />
+      <img class="pengu2" src="../../assets/gifs/pengu_walk.gif" />
     </div>
   </div>
 </nav>

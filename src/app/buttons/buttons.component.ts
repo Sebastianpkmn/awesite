@@ -1,12 +1,24 @@
 import { Component, OnInit } from '@angular/core';
+import { HttpClient } from '@angular/common/http';
 
 @Component({
   selector: 'app-buttons',
   templateUrl: './buttons.component.html',
   styleUrls: ['./buttons.component.css'],
 })
-export class ButtonsComponent implements OnInit {
-  constructor() {}
+export class ButtonsComponent {
+  // images: string[] = [];
+
+  // constructor() {
+  //   const imagesContext = require.context(
+  //     '../../assets/buttons',
+  //     true,
+  //     /\.(png|jpe?g|gif|svg)$/
+  //   );
+  //   imagesContext.keys().forEach((imagePath: string) => {
+  //     this.images.push(imagesContext(imagePath));
+  //   });
+  // }
 
   ngOnInit(): void {}
   buttons: string[] = [

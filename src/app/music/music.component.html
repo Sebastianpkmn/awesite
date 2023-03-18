@@ -1,9 +1,19 @@
-<p>
-  Here is my music collection! You can click yourself thru this
-  YouTube-Playlist. Below that are all the links seperately extracted. Enjoy
-  while it lasts.
-</p>
+<p>Here is my music collection! Enjoy while it lasts.</p>
 
-<div *ngFor="let name of names; index as i">
-  <a href="{{ links[i] }}">{{ name }}</a>
+<div *ngFor="let song of songNames; index as index">
+  <button class="music-button" (click)="onclick(index)">
+    {{ songNames[index] }}
+  </button>
 </div>
+
+<audio id="music-player"  autoplay>
+  <source
+    src="{{ '../../assets/music/' + songDatas[currentSongIndex] }}"
+    type="audio/mpeg"
+  />
+  Unfortunately, thou canst not listen to this divine music, for thy browser
+  does not support the audio element.
+</audio>
+<br>
+<p>now playing: {{ songNames[currentSongIndex] }}</p>
+<img src="../../assets/gifs/dance.gif" />
