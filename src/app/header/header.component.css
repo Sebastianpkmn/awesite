@@ -26,6 +26,7 @@
 }
 
 .form-check {
+  z-index: 200;
   color: #fff;
   position: absolute;
   right: 1%;

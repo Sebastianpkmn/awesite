@@ -1,41 +1,69 @@
-<div class="center">
+<div class="container mt-3">
+  <h1>Image library</h1>
   <p>
-    Welcome to the 'gif & button library'. You can use these cool pictures for
-    your own website! Just Right-click & save them to ur Computer
+    All the images used on this website are displayed here. Please note that the
+    images don't actually have any functionality, but are only for display.
   </p>
-
   <br />
-  <div>
-    <h2>Buttons</h2>
-  </div>
+  <!-- Nav tabs -->
+  <ul class="nav nav-tabs" role="tablist">
+    <li class="nav-item">
+      <a class="nav-link active" data-bs-toggle="tab" href="#buttons"
+        >buttons</a
+      >
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" data-bs-toggle="tab" href="#gifs">gif</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" data-bs-toggle="tab" href="#backgrounds"
+        >backgrounds</a
+      >
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" data-bs-toggle="tab" href="#other">other</a>
+    </li>
+  </ul>
 
-  <div>
-    <img
-      *ngFor="let button of buttons; index as i"
-      src="../../assets/buttons/{{ button }}"
-    />
-  </div>
+  <!-- Tab panes -->
+  <div class="tab-content">
+    <div id="buttons" class="container tab-pane active">
+      <br />
+      <div>
+        <img
+          *ngFor="let button of buttons; index as i"
+          src="../../assets/buttons/{{ button }}"
+        />
+      </div>
+    </div>
 
-  <br />
-  <div>
-    <h2>Other</h2>
-  </div>
+    <div id="gifs" class="container tab-pane fade">
+      <br />
+      <div>
+        <img
+          *ngFor="let gif of gifs; index as i"
+          src="../../assets/gifs/{{ gif }}"
+        />
+      </div>
+    </div>
 
-  <div>
-    <img
-      *ngFor="let gif of gifs; index as i"
-      src="../../assets/gifs/{{ gif }}"
-    />
-  </div>
+    <div id="backgrounds" class="container tab-pane fade">
+      <br />
+      <div>
+        <img
+          *ngFor="let background of backgrounds; index as i"
+          src="../../assets/backgrounds/{{ background }}"
+        />
+      </div>
+    </div>
 
-  <br />
-  <div>
-    <h2>N word pass</h2>
-  </div>
-
-  <div>
-    <img
-      src="https://i.kym-cdn.com/photos/images/newsfeed/001/461/309/f39.jpg"
-    />
+    <div id="other" class="container tab-pane fade">
+      <br />
+      <div>
+        <img
+          src="https://i.kym-cdn.com/photos/images/newsfeed/001/461/309/f39.jpg"
+        />
+      </div>
+    </div>
   </div>
 </div>
