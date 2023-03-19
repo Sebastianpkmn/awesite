@@ -9,9 +9,9 @@ import { FormsModule } from '@angular/forms';
 export class MusicComponent implements OnInit {
   constructor() {}
 
-  currentSongIndex: number = -10;//when starting the website, there shalln't be any music playing
+  currentSongIndex: number = -69; //when starting the website, there shalln't be any music playing
   songNames: string[] = [
-    // 'Komm, süßer Tod',
+    'Komm, süßer Tod',
     'Lofi Background music',
     'bonustrackAM2R.mp3',
     'hydroAM2R.ogg',
@@ -23,7 +23,7 @@ export class MusicComponent implements OnInit {
     'upperbrinstarSM.mp3',
   ];
   songDatas: string[] = [
-    // 'kst.mp3',
+    'kst.mp3',
     'lofi-bg.mp3',
     'bonustrackAM2R.mp3',
     'hydroAM2R.ogg',

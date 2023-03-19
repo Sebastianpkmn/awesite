@@ -48,7 +48,7 @@ export class AnimeComponent implements OnInit {
 
   onclick(index: number) {
     delay(1000);
-    
+
     this.show = 1;
     this.selectedAnimeIndex = index; // aktualisiere die Eigenschaft mit dem Indexwert
     document.getElementById('overlay')!.style.display = 'block';

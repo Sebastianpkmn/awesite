@@ -5,13 +5,11 @@
   />
 </div>
 
-
-  <div class="container">
-    <img
-      class="smallImage"
-      *ngFor="let anime of animes; index as index"
-      src="../../assets/anime/{{ anime }}.png"
-      (click)="onclick(index)"
-    />
-  </div>
-
+<div class="container">
+  <img
+    class="smallImage"
+    *ngFor="let anime of animes; index as index"
+    src="../../assets/anime/{{ anime }}.png"
+    (click)="onclick(index)"
+  />
+</div>

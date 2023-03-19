@@ -6,8 +6,8 @@ import { SharedDataService } from '../shared-data.service';
   templateUrl: './header.component.html',
   styleUrls: ['./header.component.css'],
 })
-export class HeaderComponent{
-  constructor(private sharedData: SharedDataService) { }
+export class HeaderComponent {
+  constructor(private sharedData: SharedDataService) {}
 
   toggleMusic() {
     this.sharedData.music = !this.sharedData.music;

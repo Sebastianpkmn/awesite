@@ -3,7 +3,7 @@
   padding: 8px !important;
   font-weight: 200 !important;
   font-size: 20px !important;
-  background-color: rgb(33,37,41);
+  background-color: rgb(33, 37, 41);
   border: none;
   width: 100%;
 }
@@ -12,8 +12,3 @@
   cursor: pointer;
   background-color: rgb(102, 102, 204);
 }
-
-img{
-    width: 100%;
-}
-

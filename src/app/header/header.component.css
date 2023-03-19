@@ -21,21 +21,12 @@
   color: white;
 }
 
-.dropdown {
-  text-decoration: none;
-}
-
-.pengu {
-
-}
-
 .pengu2 {
-
   transform: scaleX(-1);
 }
 
-.form-check{
+.form-check {
   color: #fff;
- position: absolute;
- right: 1%;
+  position: absolute;
+  right: 1%;
 }
