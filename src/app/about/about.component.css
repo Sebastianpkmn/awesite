@@ -6,3 +6,17 @@
   display: block;
   margin: 0 auto;
 }
+
+.visits{
+  display: flex;
+
+}
+
+.counter{
+  height: 22px;
+  padding-left: 4px;
+}
+
+hr{
+  height: 20px;
+}

@@ -1,4 +1,4 @@
-.parent {
+/* .parent {
   position: relative; 
   top: 0;
   left: 0;
@@ -48,4 +48,17 @@ width: 50%;
   position: absolute;
   top: 200px;
   right: -20%;
+} */
+.title {
+  color: black !important;
+}
+
+.pre,
+#web_chat {
+  padding: 5px;
+  background-color: #eee;
+}
+
+.title {
+  color: black !important;
 }

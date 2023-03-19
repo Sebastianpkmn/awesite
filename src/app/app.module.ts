@@ -11,7 +11,7 @@ import { FooterComponent } from './footer/footer.component';
 import { AnimeComponent } from './anime/anime.component';
 import { IdeasComponent } from './ideas/ideas.component';
 import { NavComponent } from './nav/nav.component';
-import { CLIComponent } from './cli/cli.component';
+// import { CLIComponent } from './cli/cli.component';
 import { SpamComponent } from './spam/spam.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatToolbarModule} from '@angular/material/toolbar';
@@ -28,7 +28,7 @@ import { HttpClientModule } from '@angular/common/http'; // import HttpClientMod
     AnimeComponent,
     IdeasComponent,
     NavComponent,
-    CLIComponent,
+    // CLIComponent,
     SpamComponent,
     
   ],

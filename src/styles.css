@@ -41,15 +41,14 @@ h2 {
 .content {
   flex: 70%;
   background-color: #4F4F4F ;
-  /* background-image: url("assets/backgrounds/bubble.jpg"); */
-
+ 
   background-repeat: repeat;
 }
 
 body {
   font-size: large !important;
-  background-color: black;
-  /* background-image: url("assets/backgrounds/greengrid.jpg"); */
+  /* background-color: black; */
+background-color: #2F2F2F;
   background-size: auto;
   background-repeat: repeat;
   font-family: Roboto, "Helvetica Neue", monospace;
