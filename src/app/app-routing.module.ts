@@ -16,6 +16,7 @@ const routes: Routes = [
   { path: 'cli', component: CLIComponent },
   { path: 'spam', component: SpamComponent },
   { path: '', component: AboutComponent },
+  { path: '**', pathMatch: 'full', component: AboutComponent }, //Wenn er nichts findet, geht es zu der about-seite
 ];
 
 @NgModule({
