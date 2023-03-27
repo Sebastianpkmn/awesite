@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { AboutComponent } from './about/about.component';
+import { AIComponent } from './ai/ai.component';
 import { AnimeComponent } from './anime/anime.component';
 import { ButtonsComponent } from './buttons/buttons.component';
 import { CLIComponent } from './cli/cli.component';
@@ -15,6 +16,7 @@ const routes: Routes = [
   { path: 'ideas', component: IdeasComponent },
   { path: 'cli', component: CLIComponent },
   { path: 'spam', component: SpamComponent },
+  { path: 'AI', component: AIComponent },
   { path: '', component: AboutComponent },
   { path: '**', pathMatch: 'full', component: AboutComponent }, //Wenn er nichts findet, geht es zu der about-seite
 ];

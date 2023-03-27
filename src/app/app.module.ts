@@ -13,7 +13,8 @@ import { IdeasComponent } from './ideas/ideas.component';
 import { SpamComponent } from './spam/spam.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatToolbarModule } from '@angular/material/toolbar';
-import { HttpClientModule } from '@angular/common/http'; // import HttpClientModule
+import { HttpClientModule } from '@angular/common/http';
+import { AIComponent } from './ai/ai.component'; // import HttpClientModule
 
 @NgModule({
   declarations: [
@@ -26,6 +27,7 @@ import { HttpClientModule } from '@angular/common/http'; // import HttpClientMod
     AnimeComponent,
     IdeasComponent,
     SpamComponent,
+    AIComponent,
   ],
   imports: [
     BrowserModule,
