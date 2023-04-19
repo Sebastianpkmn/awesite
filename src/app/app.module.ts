@@ -14,7 +14,8 @@ import { SpamComponent } from './spam/spam.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { HttpClientModule } from '@angular/common/http';
-import { AIComponent } from './ai/ai.component'; // import HttpClientModule
+import { AIComponent } from './ai/ai.component';
+import { JapanComponent } from './japan/japan.component'; // import HttpClientModule
 
 @NgModule({
   declarations: [
@@ -28,6 +29,7 @@ import { AIComponent } from './ai/ai.component'; // import HttpClientModule
     IdeasComponent,
     SpamComponent,
     AIComponent,
+    JapanComponent,
   ],
   imports: [
     BrowserModule,

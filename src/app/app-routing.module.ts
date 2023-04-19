@@ -8,6 +8,7 @@ import { CLIComponent } from './cli/cli.component';
 import { IdeasComponent } from './ideas/ideas.component';
 import { MusicComponent } from './music/music.component';
 import { SpamComponent } from './spam/spam.component';
+import { JapanComponent } from './japan/japan.component';
 const routes: Routes = [
   { path: 'about', component: AboutComponent },
   { path: 'buttons', component: ButtonsComponent },
@@ -18,6 +19,7 @@ const routes: Routes = [
   { path: 'spam', component: SpamComponent },
   { path: 'AI', component: AIComponent },
   { path: '', component: AboutComponent },
+  { path: 'japan', component: JapanComponent },
   { path: '**', pathMatch: 'full', component: AboutComponent }, //Wenn er nichts findet, geht es zu der about-seite
 ];
 

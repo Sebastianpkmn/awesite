@@ -2,7 +2,7 @@
   <h1>Image library</h1>
   <p>
     All the images used on this website are displayed here. Please note that the
-    images don't actually have any functionality, but are only for display.
+    images don't actually have any functionality, but are only for display. Except for the backgrounds, try clicking on one of them!
   </p>
   <br />
   <!-- Nav tabs -->
@@ -50,9 +50,10 @@
     <div id="backgrounds" class="container tab-pane fade">
       <br />
       <div>
-        <img
+        <img class="backgrounds"
           *ngFor="let background of backgrounds; index as i"
           src="../../assets/backgrounds/{{ background }}"
+          (click)="setBackground(i)"
         />
       </div>
     </div>

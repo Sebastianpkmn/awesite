@@ -22,7 +22,12 @@
 }
 
 .pengu2 {
+  width: 15%;
   transform: scaleX(-1);
+}
+
+.pengu{
+  width: 15%;
 }
 
 .form-check {

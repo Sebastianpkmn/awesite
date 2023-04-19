@@ -68,4 +68,9 @@ export class ButtonsComponent {
     'wave.jpg',
     'wave2.jpg',
   ];
+
+  setBackground(index: number) {
+    const imageUrl = `url(../../assets/backgrounds/${this.backgrounds[index]})`;
+    document.body.style.backgroundImage = imageUrl;
+  }
 }
