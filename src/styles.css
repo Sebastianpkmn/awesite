@@ -23,8 +23,7 @@ h2 {
 .content,
 .music-sidebar,
 .chat-sidebar {
-  margin-top: 76px;
-  margin-bottom: 70px;
+  margin: 76px auto 70px;
   padding: 1%;
   border: 1px;
   height: 100%;
@@ -42,7 +41,7 @@ h2 {
 }
 
 .content {
-  height:max-content;
+  height: max-content;
   flex: 70%;
   background-color: #505080;
   background-repeat: repeat;

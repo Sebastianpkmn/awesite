@@ -1,13 +1,11 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { AboutComponent } from './about/about.component';
-import { AIComponent } from './ai/ai.component';
 import { AnimeComponent } from './anime/anime.component';
 import { ButtonsComponent } from './buttons/buttons.component';
 import { CLIComponent } from './cli/cli.component';
 import { IdeasComponent } from './ideas/ideas.component';
 import { MusicComponent } from './music/music.component';
-import { SpamComponent } from './spam/spam.component';
 import { JapanComponent } from './japan/japan.component';
 import { MinecraftComponent } from './minecraft/minecraft.component';
 const routes: Routes = [
@@ -17,8 +15,6 @@ const routes: Routes = [
   { path: 'anime', component: AnimeComponent },
   { path: 'ideas', component: IdeasComponent },
   { path: 'cli', component: CLIComponent },
-  { path: 'spam', component: SpamComponent },
-  { path: 'AI', component: AIComponent },
   { path: '', component: AboutComponent },
   { path: 'japan', component: JapanComponent },
   { path: 'minecraft', component: MinecraftComponent },

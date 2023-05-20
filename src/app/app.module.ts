@@ -10,11 +10,9 @@ import { MusicComponent } from './music/music.component';
 import { FooterComponent } from './footer/footer.component';
 import { AnimeComponent } from './anime/anime.component';
 import { IdeasComponent } from './ideas/ideas.component';
-import { SpamComponent } from './spam/spam.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { HttpClientModule } from '@angular/common/http';
-import { AIComponent } from './ai/ai.component';
 import { JapanComponent } from './japan/japan.component';
 import { MinecraftComponent } from './minecraft/minecraft.component'; // import HttpClientModule
 import { CLIComponent } from './cli/cli.component';
@@ -29,8 +27,6 @@ import { CLIComponent } from './cli/cli.component';
     FooterComponent,
     AnimeComponent,
     IdeasComponent,
-    SpamComponent,
-    AIComponent,
     JapanComponent,
     MinecraftComponent,
     CLIComponent,
