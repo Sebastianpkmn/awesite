@@ -1,20 +1,20 @@
 .extern-rainbow-text {
   font-size: larger;
   font-weight: 500;
-  animation: rainbow-text 3.5s steps(1, end) infinite;
+  animation: rainbow-text 0.5s steps(1, end) infinite;
 }
 
 @keyframes rainbow-text {
   0% {
     background-image: linear-gradient(
       to right,
-      #ff7777,
-      #cc44cc,
-      #0000aa,
-      #00cc55,
-      #eeee77,
-      #dd8855,
-      #880000
+      #ff00b8,
+      #e100ff,
+      #6000ff,
+      #008aff,
+      #00ffaa,
+      #ffde03,
+      #ff8100
     );
     -webkit-background-clip: text;
     color: transparent;
@@ -22,103 +22,97 @@
   14% {
     background-image: linear-gradient(
       to right,
-      #880000,
-      #ff7777,
-      #cc44cc,
-      #0000aa,
-      #00cc55,
-      #eeee77,
-      #dd8855
+      #ff8100,
+      #ff00b8,
+      #e100ff,
+      #6000ff,
+      #008aff,
+      #00ffaa,
+      #ffde03
     );
     -webkit-background-clip: text;
     color: transparent;
   }
-
   28% {
     background-image: linear-gradient(
       to right,
-      #dd8855,
-      #880000,
-      #ff7777,
-      #cc44cc,
-      #0000aa,
-      #00cc55,
-      #eeee77
+      #ffde03,
+      #ff8100,
+      #ff00b8,
+      #e100ff,
+      #6000ff,
+      #008aff,
+      #00ffaa
     );
     -webkit-background-clip: text;
     color: transparent;
   }
-
   42% {
     background-image: linear-gradient(
       to right,
-      #eeee77,
-      #dd8855,
-      #880000,
-      #ff7777,
-      #cc44cc,
-      #0000aa,
-      #00cc55
+      #00ffaa,
+      #ffde03,
+      #ff8100,
+      #ff00b8,
+      #e100ff,
+      #6000ff,
+      #008aff
     );
     -webkit-background-clip: text;
     color: transparent;
   }
-
   56% {
     background-image: linear-gradient(
       to right,
-      #00cc55,
-      #eeee77,
-      #dd8855,
-      #880000,
-      #ff7777,
-      #cc44cc,
-      #0000aa
+      #008aff,
+      #00ffaa,
+      #ffde03,
+      #ff8100,
+      #ff00b8,
+      #e100ff,
+      #6000ff
     );
     -webkit-background-clip: text;
     color: transparent;
   }
-
   70% {
     background-image: linear-gradient(
       to right,
-      #0000aa,
-      #00cc55,
-      #eeee77,
-      #dd8855,
-      #880000,
-      #ff7777,
-      #cc44cc
+      #6000ff,
+      #008aff,
+      #00ffaa,
+      #ffde03,
+      #ff8100,
+      #ff00b8,
+      #e100ff
     );
     -webkit-background-clip: text;
     color: transparent;
   }
-
   84% {
     background-image: linear-gradient(
       to right,
-      #cc44cc,
-      #0000aa,
-      #00cc55,
-      #eeee77,
-      #dd8855,
-      #880000,
-      #ff7777
+      #e100ff,
+      #6000ff,
+      #008aff,
+      #00ffaa,
+      #ffde03,
+      #ff8100,
+      #ff00b8
     );
     -webkit-background-clip: text;
     color: transparent;
   }
-
   98% {
     background-image: linear-gradient(
       to right,
-      #ff7777,
-      #cc44cc,
-      #0000aa,
-      #00cc55,
-      #eeee77,
-      #dd8855,
-      #880000
+      #ff00b8,
+      #e100ff,
+      #6000ff,
+      #008aff,
+      #00ffaa,
+      #ffde03,
+      #ff8100
     );
     -webkit-background-clip: text;
     color: transparent;
