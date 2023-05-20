@@ -17,6 +17,7 @@ import { JapanComponent } from './japan/japan.component';
 import { MinecraftComponent } from './minecraft/minecraft.component'; // import HttpClientModule
 import { CLIComponent } from './cli/cli.component';
 import { HashLocationStrategy, LocationStrategy } from '@angular/common';
+import { UnfoundUrlComponent } from './unfound-url/unfound-url.component';
 
 @NgModule({
   declarations: [
@@ -31,6 +32,7 @@ import { HashLocationStrategy, LocationStrategy } from '@angular/common';
     JapanComponent,
     MinecraftComponent,
     CLIComponent,
+    UnfoundUrlComponent,
   ],
   imports: [
     BrowserModule,

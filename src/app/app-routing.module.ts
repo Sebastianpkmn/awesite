@@ -8,6 +8,7 @@ import { IdeasComponent } from './ideas/ideas.component';
 import { MusicComponent } from './music/music.component';
 import { JapanComponent } from './japan/japan.component';
 import { MinecraftComponent } from './minecraft/minecraft.component';
+import { UnfoundUrlComponent } from './unfound-url/unfound-url.component';
 const routes: Routes = [
   { path: 'about', component: AboutComponent },
   { path: 'buttons', component: ButtonsComponent },
@@ -18,7 +19,7 @@ const routes: Routes = [
   { path: '', component: AboutComponent },
   { path: 'japan', component: JapanComponent },
   { path: 'minecraft', component: MinecraftComponent },
-  { path: '**', pathMatch: 'full', component: AboutComponent }, //Wenn er nichts findet, geht es zu der about-seite
+  { path: '**', pathMatch: 'full', component: UnfoundUrlComponent }, //Wenn er nichts findet, geht es zu der about-seite
 ];
 
 @NgModule({
