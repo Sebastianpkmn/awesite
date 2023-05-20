@@ -14,11 +14,6 @@
   background-color: #fff;
 }
 
-.smallImage:hover {
-  cursor: pointer;
-  border: 3px #aaa solid;
-}
-
 #overlay {
   position: fixed;
   display: none;

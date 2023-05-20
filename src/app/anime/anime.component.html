@@ -7,7 +7,7 @@
 
 <div class="container">
   <img
-    class="smallImage"
+    class="smallImage hoverable"
     *ngFor="let anime of animes; index as index"
     src="../../assets/anime/{{ anime }}.png"
     (click)="onclick(index)"

@@ -47,6 +47,17 @@ h2 {
   background-repeat: repeat;
 }
 
+.important-text{
+  background-color: rgb(33,37,41);
+  padding: 10px 10px;
+  text-align: center;
+}
+
+.hoverable:hover {
+  cursor: pointer;
+  border: 3px #aaa solid!important;
+}
+
 body {
   font-size: large !important;
   background-color: #2f2f2f;
