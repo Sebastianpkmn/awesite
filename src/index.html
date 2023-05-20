@@ -36,12 +36,11 @@
     <script>
       $(document).ready(function () {
         cometApi.start({ node: "app.comet-server.ru", dev_id: 15 });
-
-        cometApi.subscription("simplechat.newMessage", function (event) {
-          $("#web_chat").append("<b>" + HtmlEncode(event.data.name) + "</b>");
+        cometApi.subscription("simplechat.newMessage", function (event) {       
           $("#web_chat").append(
             "<pre>" + HtmlEncode(event.data.text) + "</pre>"
           );
+          $("#web_chat").append("<b>" + HtmlEncode(event.data.name) + "</b>");
           $("#web_chat").append("<br>");
         });
       });

@@ -15,7 +15,9 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { HttpClientModule } from '@angular/common/http';
 import { AIComponent } from './ai/ai.component';
-import { JapanComponent } from './japan/japan.component'; // import HttpClientModule
+import { JapanComponent } from './japan/japan.component';
+import { MinecraftComponent } from './minecraft/minecraft.component'; // import HttpClientModule
+import { CLIComponent } from './cli/cli.component';
 
 @NgModule({
   declarations: [
@@ -30,6 +32,8 @@ import { JapanComponent } from './japan/japan.component'; // import HttpClientMo
     SpamComponent,
     AIComponent,
     JapanComponent,
+    MinecraftComponent,
+    CLIComponent,
   ],
   imports: [
     BrowserModule,

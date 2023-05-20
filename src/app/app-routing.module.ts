@@ -9,6 +9,7 @@ import { IdeasComponent } from './ideas/ideas.component';
 import { MusicComponent } from './music/music.component';
 import { SpamComponent } from './spam/spam.component';
 import { JapanComponent } from './japan/japan.component';
+import { MinecraftComponent } from './minecraft/minecraft.component';
 const routes: Routes = [
   { path: 'about', component: AboutComponent },
   { path: 'buttons', component: ButtonsComponent },
@@ -20,6 +21,7 @@ const routes: Routes = [
   { path: 'AI', component: AIComponent },
   { path: '', component: AboutComponent },
   { path: 'japan', component: JapanComponent },
+  { path: 'minecraft', component: MinecraftComponent },
   { path: '**', pathMatch: 'full', component: AboutComponent }, //Wenn er nichts findet, geht es zu der about-seite
 ];
 

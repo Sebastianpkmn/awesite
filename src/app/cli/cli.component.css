@@ -12,3 +12,7 @@ textarea {
   width: 100%;
   resize: vertical;
 }
+#web_chat{
+  display: flex;
+  flex-direction: column-reverse;
+}

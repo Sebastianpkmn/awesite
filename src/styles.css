@@ -21,23 +21,28 @@ h2 {
 }
 
 .content,
-.music-sidebar {
+.music-sidebar,
+.chat-sidebar {
   margin-top: 76px;
   margin-bottom: 70px;
   padding: 1%;
   border: 1px;
+  height: 100%;
 }
 
 .space,
-.music-sidebar {
+.music-sidebar,
+.chat-sidebar {
   flex: 15%;
 }
 
-.music-sidebar {
+.music-sidebar,
+.chat-sidebar {
   background-color: #444444;
 }
 
 .content {
+  height:max-content;
   flex: 70%;
   background-color: #505080;
   background-repeat: repeat;
