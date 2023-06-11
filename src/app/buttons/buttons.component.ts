@@ -57,8 +57,46 @@ export class ButtonsComponent {
     'wave2.jpg',
   ];
 
+  animes: string[] = [
+    '5008.png',
+    '5009.png',
+    '5026.png',
+    '168391b.jpg',
+    'background.png',
+    'bg-blue.jpg',
+    'bg.jpg',
+    'blue.png',
+    'bluetexture.gif',
+    'bubble.jpg',
+    'fractal.png',
+    'greengrid.jpg',
+    'grid.gif',
+    'stars.gif',
+    'stars3.gif',
+    'wave.jpg',
+    'wave2.jpg',
+  ];
+
   setBackground(index: number) {
     const imageUrl = `url(../../assets/backgrounds/${this.backgrounds[index]})`;
     document.body.style.backgroundImage = imageUrl;
+  }
+
+//neues zeug
+  selectedIndex = 0;
+  show = 0;
+
+  onclick(index: number) {
+    this.show = 1;
+    this.selectedIndex = index; // aktualisiere die Eigenschaft mit dem Indexwert
+    document.getElementById('overlay')!.style.display = 'block';
+
+  }
+
+  off() {
+    this.show = 0;
+    this.selectedIndex = 0; // setze den Index zurück
+    document.getElementById('overlay')!.style.display = 'none';
+
   }
 }

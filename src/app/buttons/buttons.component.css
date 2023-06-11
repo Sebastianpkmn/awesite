@@ -31,3 +31,48 @@ text-align: center;
   width: 96px;
   height: 96px;
 }
+
+/* ab hier das neue zeug*/
+.xcontainer {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.smallImage {
+  border: 3px #000 solid;
+  margin: 1%;
+  width: 200px;
+  background-color: #fff;
+}
+
+#overlay {
+  position: fixed;
+  display: none;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 2;
+  cursor: pointer;
+}
+
+.bigImage {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  margin: auto;
+  border: 3px #000 solid;
+  margin: 1%;
+  width: 50%;
+  background-color: #fff;
+}

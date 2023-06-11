@@ -12,35 +12,7 @@ export class AnimeComponent implements OnInit {
   ngOnInit(): void {}
 
   animes: string[] = [
-    'Akarin',
-    'Elpeo Ple',
-    'Astraea',
-    'Hestia',
-    'CC',
-    'Gokou Ruri',
-    'Holo',
-    'Hozuki',
-    'Isuzu Sento',
-    'Kanade',
-    'Kashiwazaki Sena', //Good
-    'Kirisame Marisa',
-    'Kuroyukihime',
-    'Louise',
-    'Rei',
-    'Rikka',
-    'Touwa Erio',
-    'Urotsuki',
-    'Yui Yuigahama',
-  ];
-
-  colors: string[] = [
-    '#880000',
-    '#ff7777',
-    '#cc44cc',
-    '#0000aa',
-    '#ee5577',
-    '#dd7766',
-    '#dd8855',
+    'asuka1'
   ];
 
   selectedAnimeIndex = 0;
